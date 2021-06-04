@@ -48,22 +48,22 @@ end
 
 if not isfile("disware/custom_skins.txt") then
 	print("downloading disware custom skins file")
-	writefile("disware/custom_skins.txt", game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/default_data/custom_skins.txt"))
+	writefile("disware/custom_skins.txt", game:HttpGet("https://raw.githubusercontent.com/Disware/disware/main/scripts/default_data/custom_skins.txt"))
 end
 
 if not isfile("disware/custom_models.txt") then
 	print("downloading disware custom models file")
-	writefile("disware/custom_models.txt", game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/default_data/custom_models.txt"))
+	writefile("disware/custom_models.txt", game:HttpGet("https://raw.githubusercontent.com/Disware/disware/main/scripts/default_data/custom_models.txt"))
 end
 
 if not isfile("disware/inventories.txt") then
 	print("downloading disware inventories file")
-	writefile("disware/inventories.txt", game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/default_data/inventories.txt"))
+	writefile("disware/inventories.txt", game:HttpGet("https://raw.githubusercontent.com/Disware/disware/main/scripts/default_data/inventories.txt"))
 end
 
 if not isfile("disware/skyboxes.txt") then
 	print("downloading disware skyboxes file")
-	writefile("disware/skyboxes.txt", game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/default_data/skyboxes.txt"))
+	writefile("disware/skyboxes.txt", game:HttpGet("https://raw.githubusercontent.com/Disware/disware/main/scripts/default_data/skyboxes.txt"))
 end
 
 Hint.Text = "Disware | Loading..."
@@ -131,8 +131,8 @@ local nocw_m = {}
 local curVel = 16
 local isBhopping = false
 
-local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/ESP.lua"))()
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/UILibrary.lua"))()
+local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/Disware/disware/main/scripts/ESP.lua"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Disware/disware/main/scripts/UILibrary.lua"))()
 
 local Window = library:CreateWindow(Vector2.new(500, 500), Vector2.new((workspace.CurrentCamera.ViewportSize.X/2)-250, (workspace.CurrentCamera.ViewportSize.Y/2)-250))
 
