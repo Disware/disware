@@ -1045,7 +1045,7 @@ end)
 
 if not a then
 	print(a, b)
-	game.Players.LocalPlayer:Kick("Disware | Your custom models file is fucked up lol! "..b)
+	--game.Players.LocalPlayer:Kick("Disware | Your custom models file is fucked up lol! "..b)
 end
 
 MiscellaneousTabCategoryMain:AddDropdown("Inventory Changer", TableToNames(Inventories), "-", "MiscellaneousTabCategoryMainInventoryChanger", function(val)
